@@ -1,5 +1,4 @@
-
-# The Roaster Roster
+#### ![header](/assets/Header_README.png)
 
 ## Date: 9/14/2022
 
@@ -33,6 +32,7 @@
 
 - JavaScript
 - CSS
+- Tailwind
 - HTML
 - React.JS
 - Python
