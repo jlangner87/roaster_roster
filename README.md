@@ -1,14 +1,10 @@
-#### ![header](/assets/Header_README.png)
-
-## Date: 9/14/2022
-
----
-
-### By: Joshua Langner
+![header](/assets/Header_README.png)
+### Joshua M. Langner
+#### Date: 9/14/2022
 
 ---
 
-| [LinkedIn](https://www.linkedin.com/in/josh-langner-48) | [GitHub](https://github.com/jlangner87) | [Portfolio](https://jlangner.herokuapp.com/)
+| [LinkedIn](https://www.linkedin.com/in/josh-langner-48) | [GitHub](https://github.com/jlangner87) | [Portfolio](https://jlangner.herokuapp.com/) |
 
 ---
 
@@ -20,9 +16,8 @@
 
 #### This application ...
 
-#### The two Mongoose components: Shows & Volunteers
 
-## **_Trello Board_**
+### **_Trello Board_**
 
 #### [Trello](https://trello.com/invite/b/95nVN1hO/35ebf9deab96d041ac13810f38896965/roaster-roster)
 
@@ -42,10 +37,10 @@
 
 ### **_Project Requirements_**
 
-#### ![PDF](/assets/Project_Reqs.pdf)
+#### ![Requirements] <img src="/assets/project_reqs.png" width=400px>
 
 
-### **_ERD_**
+### **_Entity Relationship Diagram_**
 
 #### ![ERD](/assets/erd.png)
 
