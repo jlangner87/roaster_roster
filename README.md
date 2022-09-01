@@ -14,7 +14,27 @@
 
 ### **_Description_**
 
-#### This application ...
+#### I am a coffee connoisseur. I love it. I need it.
+
+#### I particularly enjoy filling my bean hopper with unique small batch roasts from independently owned roasteries. The problem is that they are difficult to find. They are typically buried under the large corporate operations that shell out the big bucks for advertisement and search engine optimization.
+
+#### **_Enter the Roaster Roster!_**
+
+This is an app for 3 types of users.
+- The Roaster
+- The Retailer
+- The Connoisseur
+
+The Roaster (the roasterie owner) can set up a profile for their roasterie. On that profile, they can keep an up to date (fully mutable) list of the beans they are roasting with details such as:
+- Bean origin
+- Roast type
+- Price per unit
+- Links to purchase directly from their shop
+- A list of retailers who sell their beans in person
+
+The Retailer (the coffee shop or store owner/manager) can browse roasteries, make supplier/retailer relations with the Roasters, and even add their retail outlet to the list of places the beans can be bought in person.
+
+The Connoisseur (the average Joe who just loves a good cup of Joe) can also browse the roasteries and buy beans directly from the Roaster or from one of the Retailers who might happen to be in their area.
 
 
 ### **_Trello Board_**
@@ -65,10 +85,18 @@
 
 ### **Future Development Opportunity (Post MVP)**
 
-#### Each show will compile a list of volunteers associated with that show. The list will be a clickable link that routes the user to the volunteer's profile
+#### A feature that lets users rate individual bean roasts on a scale of 1-5 beans.
 
+#### A favoriting feature that bookmarks beans and Roasters for Retailers and Connoisseur to come back and quickly find what they already know they love.
 
+#### Connoisseur reiwes.
 
+#### Search Filters:
+- Price
+- Roast type
+- Origin
+- Average Rating
+- Location
 
 ---
 
