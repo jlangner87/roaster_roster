@@ -37,16 +37,16 @@
 
 ### **_Project Requirements_**
 
-#### ![Requirements] <img src="/assets/project_reqs.png" width=400px>
+<img src="/assets/project_reqs.png" width=400px>
 
 
 ### **_Entity Relationship Diagram_**
 
-#### ![ERD](/assets/erd.png)
+<img src="/assets/erd.png" width=650px>
 
 ### **_Component Hierarchy Diagram_**
 
-#### ![Component Heirarchy Diagram](/assets/chd.png)
+<img src="/assets/chd.png" width=650px>
 
 ### **_Screenshots_**
 
