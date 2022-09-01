@@ -40,13 +40,18 @@
 
 ---
 
+### **_Project Requirements_**
+
+#### ![PDF](/assets/Project_Reqs.pdf)
+
+
 ### **_ERD_**
 
 #### ![ERD](/assets/erd.png)
 
 ### **_Component Hierarchy Diagram_**
 
-#### ![Component Heirarchy Diagram](path)
+#### ![Component Heirarchy Diagram](/assets/chd.png)
 
 ### **_Screenshots_**
 
