@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jlangner87/roaster_roster/issues"
   },
-  "homepage": "https://github.com/jlangner87/roaster_roster#readme"
+  "homepage": "https://github.com/jlangner87/roaster_roster#readme",
+  "dependencies": {
+    "cactus": "^0.0.6"
+  }
 }
