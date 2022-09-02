@@ -3,19 +3,14 @@ from rest_framework import serializers
 from .models import User, Roaster, Bean
 
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
         fields = ('id', 'name', 'category', 'email', 'profile_pic',)
 
 
-class RoasterSerializer(serializers.HyperlinkedModelSerializer):
-    beans = serializers.HyperlinkedIdentityField(
-        view_name='bean_detail',
-        many=True,
-        read_only=True,
-    )
+class RoasterSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Roaster
@@ -23,11 +18,7 @@ class RoasterSerializer(serializers.HyperlinkedModelSerializer):
                   'site_url', 'display_pic', 'beans')
 
 
-class BeanSerializer(serializers.HyperlinkedModelSerializer):
-    roaster = serializers.HyperlinkedRelatedField(
-        view_name='roaster_detail',
-        read_only=True
-    )
+class BeanSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Bean
