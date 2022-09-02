@@ -31,5 +31,5 @@ class BeanSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Bean
-        fields = ('id', 'roaster', 'name', 'origin', 'roast_type',
-                  'description', 'price', 'buy_url', 'product_pic')
+        fields = ('id', 'roaster', 'name', 'origin', 'bean_type', 'roast_type',
+                  'description', 'organic', 'price', 'buy_url', 'product_pic')
