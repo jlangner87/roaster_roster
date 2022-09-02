@@ -7,7 +7,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('id', 'roaster', 'name', 'category', 'email', 'profile_pic',)
+        fields = ('id', 'name', 'category', 'email', 'profile_pic',)
         depth = 1
 
 
@@ -15,8 +15,8 @@ class RoasterSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Roaster
-        fields = ('id', 'user', 'name', 'bio', 'state',
-                  'site_url', 'display_pic', 'beans')
+        fields = ('id', 'name', 'bio', 'state',
+                  'site_url', 'display_pic', 'beans_list')
         depth = 1
 
 
@@ -26,4 +26,4 @@ class BeanSerializer(serializers.ModelSerializer):
         model = Bean
         fields = ('id', 'roaster', 'name', 'origin', 'bean_type', 'roast_type',
                   'description', 'organic', 'price', 'buy_url', 'product_pic')
-        depth = 1
+        depth = 2
