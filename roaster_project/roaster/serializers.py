@@ -19,7 +19,7 @@ class RoasterSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Roaster
-        fields = ('id', 'name', 'state',
+        fields = ('id', 'name', 'bio', 'state',
                   'site_url', 'display_pic', 'beans')
 
 

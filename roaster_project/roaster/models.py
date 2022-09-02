@@ -23,6 +23,7 @@ class Roaster(models.Model):
         User, on_delete=models.CASCADE, related_name="roaster")
     name = models.CharField(max_length=100)
     state = models.CharField(max_length=20)
+    bio = models.CharField(max_length=2000, blank=True)
     site_url = models.CharField(max_length=200)
     display_pic = models.CharField(max_length=200, blank=True)
 
