@@ -1,0 +1,20 @@
+{
+  "name": "roaster_project",
+  "version": "1.0.0",
+  "description": "![header](/assets/Header_README.png) ### Joshua M. Langner #### Date: 9/14/2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"🚨Error: no test specified🚨\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlangner87/roaster_roster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlangner87/roaster_roster/issues"
+  },
+  "homepage": "https://github.com/jlangner87/roaster_roster#readme"
+}

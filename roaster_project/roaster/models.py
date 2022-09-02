@@ -3,6 +3,8 @@ from django.db import models
 
 # Create your models here.
 
+# User Model
+
 
 class User(models.Model):
     name = models.CharField(max_length=100)
@@ -13,10 +15,12 @@ class User(models.Model):
     def __str__(self):
         return self.name
 
+# Roaster Model
+
 
 class Roaster(models.Model):
     user = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="user")
+        User, on_delete=models.CASCADE, related_name="roaster")
     name = models.CharField(max_length=100)
     state = models.CharField(max_length=20)
     site_url = models.CharField(max_length=200)
@@ -25,10 +29,12 @@ class Roaster(models.Model):
     def __str__(self):
         return self.name
 
+# Bean Model
+
 
 class Bean(models.Model):
     roaster = models.ForeignKey(
-        Roaster, on_delete=models.CASCADE, related_name="roaster")
+        Roaster, on_delete=models.CASCADE, related_name="beans")
     name = models.CharField(max_length=100)
     origin = models.CharField(max_length=100)
     roast_type = models.CharField(max_length=100)

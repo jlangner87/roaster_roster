@@ -4,26 +4,23 @@ from .models import User, Roaster, Bean
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
-    roaster = serializers.HyperlinkedRelatedField(
-        view_name='roaster_detail',
-        read_only=True
-    )
 
     class Meta:
         model = User
-        fields = ('id', 'user', 'name', 'category', 'email', 'prodile_pic',)
+        fields = ('id', 'name', 'category', 'email', 'profile_pic',)
 
 
 class RoasterSerializer(serializers.HyperlinkedModelSerializer):
-    beans = serializers.HyperlinkedRelatedField(
+    beans = serializers.HyperlinkedIdentityField(
         view_name='bean_detail',
         many=True,
-        read_only=True
+        read_only=True,
     )
 
     class Meta:
         model = Roaster
-        fields = ('id', 'user', 'name', 'state', 'site_url', 'display_pic')
+        fields = ('id', 'name', 'state',
+                  'site_url', 'display_pic', 'beans')
 
 
 class BeanSerializer(serializers.HyperlinkedModelSerializer):
