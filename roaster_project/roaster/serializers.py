@@ -12,6 +12,8 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class RoasterSerializer(serializers.ModelSerializer):
+    beans_list = serializers.SlugRelatedField(
+        many=True, read_only=True, slug_field='name')
 
     class Meta:
         model = Roaster
@@ -21,7 +23,6 @@ class RoasterSerializer(serializers.ModelSerializer):
 
 
 class BeanSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Bean
         fields = ('id', 'roaster', 'name', 'origin', 'bean_type', 'roast_type',

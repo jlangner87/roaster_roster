@@ -48,3 +48,15 @@ class Bean(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Retailer(models.Model):
+    name = models.CharField(max_length=100)
+    address = models.CharField(max_length=100)
+    address_line2 = models.CharField(max_length=100, blank=True)
+    city = models.CharField(max_length=100)
+    state = models.CharField(max_length=100)
+    zipcode = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
