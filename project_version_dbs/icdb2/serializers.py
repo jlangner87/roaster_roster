@@ -18,6 +18,10 @@ class RoasterSerializer(serializers.ModelSerializer):
 
 
 class BeanSerializer(serializers.ModelSerializer):
+    roaster = serializers.SlugRelatedField(
+        slug_field="name",
+        read_only=True
+    )
 
     class Meta:
         model = Bean

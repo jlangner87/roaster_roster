@@ -35,7 +35,7 @@ class Roaster(models.Model):
 
 class Bean(models.Model):
     roaster = models.ForeignKey(
-        Roaster, on_delete=models.CASCADE, related_name="beans_list")
+        Roaster, on_delete=models.CASCADE, related_name="beans_list", null=True)
     name = models.CharField(max_length=100)
     origin = models.CharField(max_length=100)
     bean_type = models.CharField(max_length=100, blank=True)
