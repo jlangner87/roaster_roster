@@ -1,6 +1,6 @@
 from dataclasses import fields
 from rest_framework import serializers
-from .models import User, Roaster, Bean
+from .models import User, Roaster, Bean, Retailer
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -28,3 +28,10 @@ class BeanSerializer(serializers.ModelSerializer):
         fields = ('id', 'roaster', 'name', 'origin', 'bean_type', 'roast_type',
                   'description', 'organic', 'price', 'buy_url', 'product_pic')
         depth = 2
+
+
+class RetailerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Retailer
+        fields = ("id", "name", "address", "address_line2",
+                  "city", "state", "zipcode")

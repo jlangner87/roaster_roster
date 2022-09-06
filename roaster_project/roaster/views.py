@@ -1,7 +1,7 @@
 from roaster.models import Roaster
-from .models import User, Roaster, Bean
+from .models import User, Roaster, Bean, Retailer
 from rest_framework import generics
-from .serializers import UserSerializer, RoasterSerializer, BeanSerializer
+from .serializers import UserSerializer, RoasterSerializer, BeanSerializer, RetailerSerializer
 
 # Create your views here.
 # USER
@@ -39,3 +39,15 @@ class BeanList(generics.ListCreateAPIView):
 class BeanDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Bean.objects.all()
     serializer_class = BeanSerializer
+
+
+# RETAILER
+
+class RetailerList(generics.ListCreateAPIView):
+    queryset = Retailer.objects.all()
+    serializer_class = RetailerSerializer
+
+
+class RetailerDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Retailer.objects.all()
+    serializer_class = RetailerSerializer

@@ -13,5 +13,10 @@ urlpatterns = [
     path('beans/<int:pk>', views.BeanDetail.as_view(), name="bean_detail"),
     # User
     path('users/', views.UserList.as_view(), name="user_list"),
-    path('users/<int:pk>', views.UserDetail.as_view(), name="user_detail")
+    path('users/<int:pk>', views.UserDetail.as_view(), name="user_detail"),
+    # Retailer
+    path('retailers/', views.RetailerList.as_view(), name='retailer_list'),
+    path('retailers/<int:pk>', views.RetailerDetail.as_view(),
+         name="retailer_inventory")
+
 ]
