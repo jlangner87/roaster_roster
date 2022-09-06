@@ -20,7 +20,7 @@ class User(models.Model):
 
 class Roaster(models.Model):
     user = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="roaster")
+        User, on_delete=models.CASCADE, related_name="roaster", null=True)
     name = models.CharField(max_length=100)
     state = models.CharField(max_length=20)
     bio = models.CharField(max_length=2000, blank=True)

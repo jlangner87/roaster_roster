@@ -12,6 +12,6 @@ urlpatterns = [
     path('beans/', views.BeanList.as_view(), name='bean_list'),
     path('beans/<int:pk>', views.BeanDetail.as_view(), name='bean_detail'),
     # Users
-    # path('users', views.UserList.as_view(), name='user_list'),
-    # path('users/<int:pk>', views.UserDetail.as_view(), name='user_detail'),
+    path('users', views.UserList.as_view(), name='user_list'),
+    path('users/<int:pk>', views.UserDetail.as_view(), name='user_detail'),
 ]
