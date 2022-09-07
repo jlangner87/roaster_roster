@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'icdb2',
-    'rest_framework'
+    'rest_framework',
+    'simple_deploy'
 ]
 
 REST_FRAMEWORK = {
