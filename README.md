@@ -1,16 +1,12 @@
+### *This repository contains the code for my Python server side code. I ultimately had to piot to a PostgreSQL backend. I am retaining this repo for reference only*
+
 ![header](/assets/Header_README.png)
 ### Joshua M. Langner
 #### Date: 9/14/2022
 
 ---
 
-| [LinkedIn](https://www.linkedin.com/in/josh-langner-48) | [GitHub](https://github.com/jlangner87) | [Portfolio](https://jlangner.herokuapp.com/) |
-
----
-
-#### Deployed Application [Name] (URL here)
-
-#### Client App Project Files [Repo](https://github.com/jlangner87/roaster_roster_client)
+| [LinkedIn](https://www.linkedin.com/in/josh-langner-48) | [GitHub](https://github.com/jlangner87) | [Portfolio](https://joshua-langner.com) |
 
 ---
 
@@ -34,24 +30,9 @@ The Roaster (the roasterie owner) can set up a profile for their roasterie. On t
 - Links to purchase directly from their shop
 - A list of retailers who sell their beans in person
 
-The Retailer (the coffee shop or store owner/manager) can browse roasteries, make supplier/retailer relations with the Roasters, and even add their retail outlet to the list of places the beans can be bought in person.
-
-The Connoisseur (the average Joe who just loves a good cup of Joe) can also browse the roasteries and buy beans directly from the Roaster or from one of the Retailers who might happen to be in their area.
-
-
-### **_Trello Board_**
-
-#### [Trello](https://trello.com/b/95nVN1hO/roaster-roster)
-
----
 
 ### **_Technologies Used_**
 
-- JavaScript
-- CSS
-- Tailwind
-- HTML
-- React.JS
 - Python
 - Django
 
