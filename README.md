@@ -50,39 +50,3 @@ The Roaster (the roasterie owner) can set up a profile for their roasterie. On t
 ### **_Component Hierarchy Diagram_**
 
 <img src="/assets/chd.png" width=650px>
-
-### **_Screenshots_**
-
-#### Title
-
-#### ![Title](path)
-
-#### Title
-
-#### ![Title](path)
-#### Title
-
-#### ![Title](path)
-
----
-
-### **Future Development Opportunity (Post MVP)**
-
-#### A feature that lets users rate individual bean roasts on a scale of 1-5 beans.
-
-#### A favoriting feature that bookmarks beans and Roasters for Retailers and Connoisseur to come back and quickly find what they already know they love.
-
-#### Connoisseur reiwes.
-
-#### Search Filters:
-- Price
-- Roast type
-- Origin
-- Average Rating
-- Location
-
----
-
-### _Credits & Citations_
-
-##### thing to cite [Name](url)
