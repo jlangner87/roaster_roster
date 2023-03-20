@@ -1,4 +1,4 @@
-### *This repository contains the code for my Python server side code. I ultimately had to piot to a PostgreSQL backend. I am retaining this repo for reference only*
+### *This repository contains my Python server side code. For this project, I ultimately made the decision to piot to a PostgreSQL backend. I am retaining this repo for reference only*
 
 ![header](/assets/Header_README.png)
 ### Joshua M. Langner
